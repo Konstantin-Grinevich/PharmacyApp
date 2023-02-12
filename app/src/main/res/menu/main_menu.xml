@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/miAdd"
+        android:icon="@android:drawable/ic_input_add"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/miBack"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:title="Назад"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/miPhamAdd"
+        android:icon="@android:drawable/ic_input_add"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/miSortByNum"
+        android:title="Отсортировать по номеру"></item>
+    <item
+        android:id="@+id/miSortByAddress"
+        android:title="Отсортировать по адресу" />
+    <item
+        android:id="@+id/miGetFromDB"
+        android:title="Обновить сети аптек" />
+</menu>
